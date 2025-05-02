@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Toms Independent Taxi Co</title>
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #FFD700;
+      font-family: 'Permanent Marker', cursive;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 600px;
+    }
+
+    .brand {
+      font-size: 2.5rem;
+      text-align: left;
+      margin: 0;
+      line-height: 1.1;
+    }
+
+    .slanted {
+      display: inline-block;
+      transform: rotate(-8deg);
+    }
+
+    .locations {
+      text-align: right;
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
+
+    @media (max-width: 600px) {
+      .brand {
+        font-size: 1.8rem;
+      }
+      .locations {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="brand">TOMS</div>
+    <div class="brand slanted">INDEPENDENT TAXI CO</div>
+    <div class="locations">NEW YORK – PARIS – LINDFIELD</div>
+  </div>
+</body>
+</html>
